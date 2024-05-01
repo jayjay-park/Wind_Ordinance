@@ -1,0 +1,127 @@
+time_step: 1.0
+lr: 0.001
+weight_decay: 1e-05
+num_epoch: 1000
+model_type: MLP
+n_hidden: 256
+n_layers: 3
+batch_size: 4096
+dim: 5
+optim_name: AdamW
+Index(['t_county', 't_state', 'p_tnum', 'ordinance', 'p_cap', 't_rsa'], dtype='object')
+Epoch 0: New minimal validation loss: 127823.08%, model saved.
+Epoch: 0 Train: 1928651.75000 Val: 127823.07812 Test: 231183.14062
+Epoch 10: New minimal validation loss: 119165.05%, model saved.
+Epoch: 10 Train: 318859.87500 Val: 119165.05469 Test: 218253.07812
+Epoch 20: New minimal validation loss: 60831.39%, model saved.
+Epoch: 20 Train: 138952.21875 Val: 60831.38672 Test: 137683.93750
+Epoch 30: New minimal validation loss: 46148.11%, model saved.
+Epoch: 30 Train: 121001.91406 Val: 46148.10938 Test: 106153.23438
+Epoch 40: New minimal validation loss: 15176.12%, model saved.
+Epoch: 40 Train: 47886.94141 Val: 15176.11523 Test: 38097.32812
+Epoch: 50 Train: 39375.85938 Val: 26453.65820 Test: 38097.32812
+Epoch 60: New minimal validation loss: 10373.75%, model saved.
+Epoch: 60 Train: 33468.48828 Val: 10373.75195 Test: 30590.50977
+Epoch 70: New minimal validation loss: 5187.94%, model saved.
+Epoch: 70 Train: 28317.61328 Val: 5187.93652 Test: 22693.68555
+Epoch 80: New minimal validation loss: 5069.38%, model saved.
+Epoch: 80 Train: 21195.92578 Val: 5069.38037 Test: 21382.47266
+Epoch 90: New minimal validation loss: 4464.52%, model saved.
+Epoch: 90 Train: 20299.64453 Val: 4464.52441 Test: 20528.80859
+Epoch: 100 Train: 18642.75391 Val: 4484.80615 Test: 20528.80859
+Epoch 110: New minimal validation loss: 4314.55%, model saved.
+Epoch: 110 Train: 14179.26074 Val: 4314.54639 Test: 17700.92188
+Epoch 120: New minimal validation loss: 4211.28%, model saved.
+Epoch: 120 Train: 15672.18359 Val: 4211.28125 Test: 17340.61328
+Epoch: 130 Train: 13932.35840 Val: 4624.73877 Test: 17340.61328
+Epoch: 140 Train: 15354.35547 Val: 4912.88770 Test: 17340.61328
+Epoch 150: New minimal validation loss: 4018.15%, model saved.
+Epoch: 150 Train: 18022.61328 Val: 4018.15332 Test: 16243.93262
+Epoch: 160 Train: 12735.65918 Val: 4558.94727 Test: 16243.93262
+Epoch: 170 Train: 15394.63574 Val: 4055.53442 Test: 16243.93262
+Epoch: 180 Train: 11739.56641 Val: 4989.43945 Test: 16243.93262
+Epoch: 190 Train: 12014.34473 Val: 4499.92188 Test: 16243.93262
+Epoch: 200 Train: 12107.97656 Val: 5977.14746 Test: 16243.93262
+Epoch: 210 Train: 11868.07715 Val: 4513.67236 Test: 16243.93262
+Epoch: 220 Train: 13016.51465 Val: 4682.66309 Test: 16243.93262
+Epoch: 230 Train: 12146.82227 Val: 4565.58301 Test: 16243.93262
+Epoch: 240 Train: 11736.06738 Val: 4570.91406 Test: 16243.93262
+Epoch: 250 Train: 13030.47949 Val: 4788.57080 Test: 16243.93262
+Epoch: 260 Train: 9476.32617 Val: 4704.58105 Test: 16243.93262
+Epoch: 270 Train: 11637.11133 Val: 4638.00684 Test: 16243.93262
+Epoch: 280 Train: 9738.16113 Val: 4637.15674 Test: 16243.93262
+Epoch: 290 Train: 12673.34180 Val: 4799.57715 Test: 16243.93262
+Epoch: 300 Train: 11052.39258 Val: 4978.75537 Test: 16243.93262
+Epoch: 310 Train: 11501.54297 Val: 4984.57129 Test: 16243.93262
+Epoch: 320 Train: 10658.00781 Val: 5154.05322 Test: 16243.93262
+Epoch: 330 Train: 8877.43945 Val: 5011.89990 Test: 16243.93262
+Epoch: 340 Train: 11336.51953 Val: 4658.66309 Test: 16243.93262
+Epoch: 350 Train: 8413.30762 Val: 4916.50537 Test: 16243.93262
+Epoch: 360 Train: 11627.70410 Val: 4333.47461 Test: 16243.93262
+Epoch: 370 Train: 10424.65625 Val: 4612.54883 Test: 16243.93262
+Epoch: 380 Train: 8159.39111 Val: 4849.60449 Test: 16243.93262
+Epoch: 390 Train: 9788.98242 Val: 4630.47070 Test: 16243.93262
+Epoch: 400 Train: 10334.53516 Val: 4224.99658 Test: 16243.93262
+Epoch: 410 Train: 9426.81152 Val: 4711.67529 Test: 16243.93262
+Epoch: 420 Train: 10534.90820 Val: 4397.06396 Test: 16243.93262
+Epoch: 430 Train: 8991.01172 Val: 4428.64551 Test: 16243.93262
+Epoch: 440 Train: 7779.86182 Val: 4857.83447 Test: 16243.93262
+Epoch: 450 Train: 8509.39844 Val: 4456.73633 Test: 16243.93262
+Epoch: 460 Train: 8988.80078 Val: 4375.70117 Test: 16243.93262
+Epoch: 470 Train: 10904.80859 Val: 4804.44482 Test: 16243.93262
+Epoch: 480 Train: 10095.49316 Val: 4745.30908 Test: 16243.93262
+Epoch: 490 Train: 11162.33105 Val: 4564.90137 Test: 16243.93262
+Epoch: 500 Train: 7681.54102 Val: 4532.11572 Test: 16243.93262
+Epoch: 510 Train: 8083.84814 Val: 4524.77979 Test: 16243.93262
+Epoch: 520 Train: 9688.11523 Val: 4326.41406 Test: 16243.93262
+Epoch: 530 Train: 11178.76953 Val: 4489.60938 Test: 16243.93262
+Epoch: 540 Train: 8314.38281 Val: 4368.64697 Test: 16243.93262
+Epoch: 550 Train: 8567.95996 Val: 4538.07666 Test: 16243.93262
+Epoch: 560 Train: 9878.50293 Val: 4327.48291 Test: 16243.93262
+Epoch: 570 Train: 9054.01758 Val: 4391.00977 Test: 16243.93262
+Epoch: 580 Train: 8570.21777 Val: 4627.39746 Test: 16243.93262
+Epoch: 590 Train: 8327.47266 Val: 4462.07666 Test: 16243.93262
+Epoch: 600 Train: 9871.22266 Val: 4327.41162 Test: 16243.93262
+Epoch: 610 Train: 8010.78809 Val: 4884.94629 Test: 16243.93262
+Epoch: 620 Train: 9545.90332 Val: 4255.38818 Test: 16243.93262
+Epoch: 630 Train: 8884.87598 Val: 4073.76465 Test: 16243.93262
+Epoch: 640 Train: 8074.66064 Val: 4029.11426 Test: 16243.93262
+Epoch: 650 Train: 8555.61816 Val: 4309.83447 Test: 16243.93262
+Epoch: 660 Train: 8998.83887 Val: 4444.05908 Test: 16243.93262
+Epoch: 670 Train: 8849.57227 Val: 4402.04541 Test: 16243.93262
+Epoch 680: New minimal validation loss: 3948.66%, model saved.
+Epoch: 680 Train: 9052.55078 Val: 3948.65601 Test: 12464.05859
+Epoch: 690 Train: 8198.46875 Val: 4421.42725 Test: 12464.05859
+Epoch: 700 Train: 8642.10840 Val: 4468.82715 Test: 12464.05859
+Epoch: 710 Train: 8746.67969 Val: 4158.13330 Test: 12464.05859
+Epoch: 720 Train: 9241.48340 Val: 4377.94482 Test: 12464.05859
+Epoch: 730 Train: 8025.47705 Val: 4318.04541 Test: 12464.05859
+Epoch: 740 Train: 10451.29590 Val: 4260.96045 Test: 12464.05859
+Epoch: 750 Train: 9112.01465 Val: 4215.06592 Test: 12464.05859
+Epoch: 760 Train: 8103.47607 Val: 4325.38770 Test: 12464.05859
+Epoch: 770 Train: 8922.25391 Val: 4272.48535 Test: 12464.05859
+Epoch: 780 Train: 8127.85254 Val: 4097.96582 Test: 12464.05859
+Epoch: 790 Train: 8999.62305 Val: 4231.81445 Test: 12464.05859
+Epoch: 800 Train: 8556.69336 Val: 4168.04346 Test: 12464.05859
+Epoch: 810 Train: 8221.76270 Val: 4489.29541 Test: 12464.05859
+Epoch: 820 Train: 8372.02051 Val: 4065.64697 Test: 12464.05859
+Epoch: 830 Train: 7945.93408 Val: 4274.08301 Test: 12464.05859
+Epoch: 840 Train: 7974.96631 Val: 4323.14453 Test: 12464.05859
+Epoch: 850 Train: 9102.37305 Val: 4401.02246 Test: 12464.05859
+Epoch: 860 Train: 8832.66992 Val: 4274.54297 Test: 12464.05859
+Epoch: 870 Train: 8255.20410 Val: 4200.16357 Test: 12464.05859
+Epoch: 880 Train: 8113.19531 Val: 4277.47559 Test: 12464.05859
+Epoch: 890 Train: 8544.35449 Val: 4165.27344 Test: 12464.05859
+Epoch: 900 Train: 7993.97607 Val: 4170.93408 Test: 12464.05859
+Epoch: 910 Train: 7872.04102 Val: 4224.22510 Test: 12464.05859
+Epoch: 920 Train: 10667.74707 Val: 4166.94873 Test: 12464.05859
+Epoch: 930 Train: 9324.75391 Val: 4189.04883 Test: 12464.05859
+Epoch: 940 Train: 9064.25000 Val: 4566.85596 Test: 12464.05859
+Epoch: 950 Train: 8701.37402 Val: 4280.40527 Test: 12464.05859
+Epoch: 960 Train: 8182.51904 Val: 4213.83936 Test: 12464.05859
+Epoch: 970 Train: 8865.27832 Val: 4296.10693 Test: 12464.05859
+Epoch: 980 Train: 9054.71289 Val: 4180.75439 Test: 12464.05859
+Epoch: 990 Train: 8046.12500 Val: 4174.12646 Test: 12464.05859
+Epoch: 999 Train: 7754.56738 Val: 4121.13721 Test: 12464.05859
+Training Loss: tensor(7754.5674)
+Test Loss: tensor(4121.1372)
